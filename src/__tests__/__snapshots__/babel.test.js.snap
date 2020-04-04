@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creates mock for multiple react component 1`] = `
+"\\"use strict\\";
+
+jest.mock(\\"./InnerComp2\\", () => jest.fn(() => \\"InnerComp2\\").mockName(\\"InnerComp2\\"));
+jest.mock(\\"./InnerComp\\", () => jest.fn(() => \\"InnerComp\\").mockName(\\"InnerComp\\"));
+
+var _interopRequireDefault = require(\\"/Users/salahabdulsalam/Workspaces/jest-react-mock/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+var _react = _interopRequireDefault(require(\\"react\\"));
+
+var _react2 = require(\\"@testing-library/react\\");
+
+var _App = _interopRequireDefault(require(\\"./App\\"));
+
+var _InnerComp = _interopRequireDefault(require(\\"./InnerComp\\"));
+
+var _InnerComp2 = _interopRequireDefault(require(\\"./InnerComp2\\"));
+
+test('Mock inner components', () => {
+  const {
+    getByText,
+    debug
+  } = (0, _react2.render)(_App.default);
+  debug();
+});"
+`;
+
+exports[`Creates mock for react component named imports 1`] = `
+"\\"use strict\\";
+
+jest.mock(\\"./InnerComp\\", () => ({
+  InnerComp: jest.fn(() => \\"InnerComp\\").mockName(\\"InnerComp\\")
+}));
+
+var _interopRequireDefault = require(\\"/Users/salahabdulsalam/Workspaces/jest-react-mock/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+var _react = _interopRequireDefault(require(\\"react\\"));
+
+var _react2 = require(\\"@testing-library/react\\");
+
+var _App = _interopRequireDefault(require(\\"./App\\"));
+
+var _InnerComp = require(\\"./InnerComp\\");
+
+test('Mock inner components', () => {
+  const {
+    getByText,
+    debug
+  } = (0, _react2.render)(_App.default);
+  debug();
+});"
+`;
+
+exports[`Creates mock single react component 1`] = `
+"\\"use strict\\";
+
+jest.mock(\\"./InnerComp\\", () => jest.fn(() => \\"InnerComp\\").mockName(\\"InnerComp\\"));
+
+var _interopRequireDefault = require(\\"/Users/salahabdulsalam/Workspaces/jest-react-mock/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+var _react = _interopRequireDefault(require(\\"react\\"));
+
+var _react2 = require(\\"@testing-library/react\\");
+
+var _App = _interopRequireDefault(require(\\"./App\\"));
+
+var _InnerComp = _interopRequireDefault(require(\\"./InnerComp\\"));
+
+test('Mock inner component', () => {
+  const {
+    getByText,
+    debug
+  } = (0, _react2.render)(_App.default);
+  debug();
+});"
+`;

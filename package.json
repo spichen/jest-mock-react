@@ -1,0 +1,29 @@
+{
+  "name": "jest-mock-react-components",
+  "version": "0.0.1",
+  "description": "Mock react component and jest expect extensions",
+  "main": "build/babel.js",
+  "scripts": {
+    "build": "babel src --out-dir build --ignore '**/*.test.js' --watch",
+    "test": "jest **/*.test.js"
+  },
+  "author": "Salah (nh.salah@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "jest": "^25.2.7"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "babel-preset-react-app": "^9.1.2",
+    "jest-matcher-utils": "^25.2.7",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["helpers"]
+  }
+}
