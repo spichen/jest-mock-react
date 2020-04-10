@@ -1,6 +1,6 @@
 {
   "name": "jest-mock-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mock react component and jest expect extensions",
   "main": "build/babel.js",
   "scripts": {
@@ -29,6 +29,8 @@
     "react-test-renderer": "^16.13.1"
   },
   "jest": {
-    "testPathIgnorePatterns": ["helpers"]
+    "testPathIgnorePatterns": [
+      "helpers"
+    ]
   }
 }
