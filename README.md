@@ -1,5 +1,5 @@
 # Jest Mock React
-Don't like shallow rendering and want to mock specific child components for your component tests? Jest Mock React helps you to easily mock components and assert on the rendered component.
+Don't like shallow rendering and want to mock specific child components for your component tests? Jest Mock React helps you to easily mock components and assert on the rendered component using jest expect extensions.
 
 ## Installation
 
