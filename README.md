@@ -134,4 +134,4 @@ MIT
 
 [license-badge]:
   https://img.shields.io/npm/l/jest-mock-react.svg?style=flat-square
-[license]: https://github.com/jest-mock-react/blob/master/LICENSE
+[license]: https://github.com/thesalah/jest-mock-react/blob/master/LICENSE
