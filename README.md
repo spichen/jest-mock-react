@@ -1,9 +1,8 @@
 # Jest Mock React
 
-[![Build Status][build-badge]][build]
-[![version][version-badge]][package] 
-[![MIT License][license-badge]][license]
-[![PRs Welcome][prs-badge]][prs]
+![Travis (.org)](https://img.shields.io/travis/thesalah/jest-mock-react)
+![npm](https://img.shields.io/npm/v/jest-mock-react)
+![GitHub](https://img.shields.io/github/license/thesalah/jest-mock-react)
 
 Don't like shallow rendering and want to mock specific child components for your component tests? Jest Mock React helps you to easily mock components and assert on the rendered component using jest expect extensions.
 
@@ -124,17 +123,3 @@ test('should render App', () => {
 ## LICENSE
 
 MIT
-
-
-[build-badge]:
-  https://travis-ci.org/thesalah/jest-mock-react.svg?branch=master
-[build]: https://travis-ci.org/github/thesalah/jest-mock-react
-[version-badge]:
-  https://img.shields.io/npm/v/thesalah/jest-mock-react.svg?style=flat
-[package]: https://www.npmjs.com/package/jest-mock-react
-[license-badge]:
-  https://img.shields.io/npm/l/jest-mock-react.svg?style=flat
-[license]: https://github.com/thesalah/jest-mock-react/blob/master/LICENSE
-[prs-badge]:
-  https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat
-[prs]: http://makeapullrequest.com
