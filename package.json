@@ -1,5 +1,5 @@
 {
-  "name": "jest-mock-react-components",
+  "name": "jest-mock-react",
   "version": "0.0.1",
   "description": "Mock react component and jest expect extensions",
   "main": "build/babel.js",
