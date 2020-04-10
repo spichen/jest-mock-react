@@ -1,6 +1,6 @@
 {
   "name": "jest-mock-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mock react component and jest expect extensions",
   "main": "build/babel.js",
   "scripts": {
