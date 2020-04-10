@@ -17,7 +17,7 @@ it("Creates mock single react component", () => {
   
   `;
 
-  expect(transform(source, { presets: ["react-app"], plugins: [plugin], filename: "/test.jsx" }).code).toMatchSnapshot();
+  expect(transform(source, { babelrc: false, presets: ["@babel/react"], plugins: [plugin], filename: "/test.jsx" }).code).toMatchSnapshot();
 });
 
 it("Creates mock for multiple react component", () => {
@@ -37,7 +37,7 @@ it("Creates mock for multiple react component", () => {
     
     `;
 
-    expect(transform(source, { presets: ["react-app"], plugins: [plugin], filename: "/test.jsx" }).code).toMatchSnapshot();
+    expect(transform(source, { presets: ["@babel/react"], plugins: [plugin], filename: "/test.jsx" }).code).toMatchSnapshot();
 });
 
 it("Creates mock for react component named imports", () => {
@@ -56,5 +56,5 @@ it("Creates mock for react component named imports", () => {
     
     `;
 
-    expect(transform(source, { presets: ["react-app"], plugins: [plugin], filename: "/test.jsx" }).code).toMatchSnapshot();
+    expect(transform(source, { presets: ["@babel/react"], plugins: [plugin], filename: "/test.jsx" }).code).toMatchSnapshot();
 });
