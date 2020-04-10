@@ -125,3 +125,4 @@ MIT
 
 [build-badge]:
   https://travis-ci.org/thesalah/jest-mock-react.svg?branch=master
+[build]: https://travis-ci.org/github/thesalah/jest-mock-react
