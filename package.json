@@ -4,8 +4,8 @@
   "description": "Mock react component and jest expect extensions",
   "main": "build/babel.js",
   "scripts": {
-    "build": "babel src --out-dir build --ignore '**/*.test.js' --watch",
-    "test": "jest **/*.test.js"
+    "build": "babel src --out-dir build --ignore '**/__tests__/*'",
+    "test": "jest"
   },
   "author": "Salah (nh.salah@gmail.com)",
   "license": "ISC",
@@ -32,5 +32,13 @@
     "testPathIgnorePatterns": [
       "helpers"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thesalah/jest-mock-react"
+  },
+  "bugs": {
+    "url": "https://github.com/thesalah/jest-mock-react/issues"
+  },
+  "homepage": "https://github.com/thesalah/jest-mock-react#readme"
 }
