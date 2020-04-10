@@ -1,1 +1,1 @@
-import './build/extend-expect'
+require('./build/extend-expect')

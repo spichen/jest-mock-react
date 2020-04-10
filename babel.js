@@ -1,1 +1,1 @@
-module.exports = require("./build/babel");
+require("./build/babel")
