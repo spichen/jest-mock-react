@@ -1,4 +1,7 @@
 # Jest Mock React
+
+[![Build Status][build-badge]][build]
+
 Don't like shallow rendering and want to mock specific child components for your component tests? Jest Mock React helps you to easily mock components and assert on the rendered component using jest expect extensions.
 
 ## Installation
@@ -118,3 +121,7 @@ test('should render App', () => {
 ## LICENSE
 
 MIT
+
+
+[build-badge]:
+  https://travis-ci.org/thesalah/jest-mock-react.svg?branch=master
